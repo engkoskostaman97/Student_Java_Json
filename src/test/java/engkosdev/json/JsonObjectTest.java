@@ -35,11 +35,13 @@ public class JsonObjectTest {
         String json = """
                 {
                   "age": 30,
-                  "address": {
+                  "address": [ {
+                  
                     "street": "Jalan belum ada",
                     "city": "Jakarta",
                     "country": "Indonesia"
-                  },
+                    }
+                  ],
                   "firstName": "Budi",
                   "lastName": "Nugraha",
                   "married": true
